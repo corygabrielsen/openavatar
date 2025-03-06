@@ -1,0 +1,38 @@
+{
+  "body": {
+    "patternName": "nipples_feminine",
+    "paletteName": "sunburn2"
+  },
+  "makeup": {
+    "patternName": "lipstick",
+    "paletteName": "glam_red"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "brown2"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "brown2"
+  },
+  "bottomwear": {
+    "patternName": "underwear_solid7",
+    "paletteName": "theme__063__yellow_canary"
+  },
+  "footwear": {
+    "patternName": "shoes7",
+    "paletteName": "theme__063__yellow_canary"
+  },
+  "topwear": {
+    "patternName": "dress_lowcut_gradient1",
+    "paletteName": "theme__063__yellow_canary"
+  },
+  "jewelry": {
+    "patternName": "earrings2",
+    "paletteName": "crystal_diamond"
+  },
+  "hair": {
+    "patternName": "medium",
+    "paletteName": "theme__063__yellow_canary"
+  }
+}

@@ -1,0 +1,68 @@
+@import '../constants';
+
+.title {
+  font-size: 3em;
+  font-weight: normal;
+  margin: 0 auto 1rem auto;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.subtitle {
+  color: $color-primary;
+  font-size: 1.25em;
+  font-weight: normal;
+  margin: 0 auto 1rem auto;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.disclaimer {
+  color: white;
+  font-size: 1em;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.disclaimerpara {
+  color: gray;
+  font-size: 1em;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.subsubtitle {
+  color: $color-secondary;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0 auto 1rem auto;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.content {
+  font-size: 1.2em;
+  padding: 2rem 2rem 0 2rem;
+  margin: 0;
+  text-align: center;
+
+  height: fit-content;
+  width: 100%;
+}
+
+.avatars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2em auto;
+  padding: 0;
+  width: 100%;
+}

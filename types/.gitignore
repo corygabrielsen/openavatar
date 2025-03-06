@@ -1,0 +1,8 @@
+# Ignore compiled JavaScript files
+lib/
+
+# Ignore TypeScript type definition files
+*.d.ts
+
+# Ignore node_modules
+node_modules/

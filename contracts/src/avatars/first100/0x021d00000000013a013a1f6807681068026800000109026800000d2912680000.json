@@ -1,0 +1,46 @@
+{
+  "body": {
+    "patternName": "inner_chest",
+    "paletteName": "human030"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "blue3"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "blue3"
+  },
+  "bottomwear": {
+    "patternName": "shorts_speckled4",
+    "paletteName": "theme__105__electric_rain"
+  },
+  "footwear": {
+    "patternName": "shoes7",
+    "paletteName": "theme__105__electric_rain"
+  },
+  "topwear": {
+    "patternName": "tshirt_gradient2",
+    "paletteName": "theme__105__electric_rain"
+  },
+  "handwear": {
+    "patternName": "gloves2",
+    "paletteName": "theme__105__electric_rain"
+  },
+  "jewelry": {
+    "patternName": "earrings",
+    "paletteName": "crystal_lapis_lazuli"
+  },
+  "facial_hair": {
+    "patternName": "handlebar_mustache",
+    "paletteName": "theme__105__electric_rain"
+  },
+  "eyewear": {
+    "patternName": "ar_vr_visor",
+    "paletteName": "transluscent_turquoise"
+  },
+  "hair": {
+    "patternName": "dreads",
+    "paletteName": "theme__105__electric_rain"
+  }
+}

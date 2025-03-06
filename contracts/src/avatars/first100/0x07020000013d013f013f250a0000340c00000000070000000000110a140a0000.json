@@ -1,0 +1,38 @@
+{
+  "body": {
+    "patternName": "breasts",
+    "paletteName": "human003"
+  },
+  "makeup": {
+    "patternName": "lipstick",
+    "paletteName": "subtle_magenta"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "periwinkle1"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "periwinkle1"
+  },
+  "bottomwear": {
+    "patternName": "underwear_solid6",
+    "paletteName": "theme__011__punk_pop"
+  },
+  "topwear": {
+    "patternName": "croptop_gradient6",
+    "paletteName": "theme__013__hot_pink"
+  },
+  "jewelry": {
+    "patternName": "chain_10mm",
+    "paletteName": "crystal_diamond"
+  },
+  "eyewear": {
+    "patternName": "led_ticker_left",
+    "paletteName": "theme__011__punk_pop"
+  },
+  "hair": {
+    "patternName": "long",
+    "paletteName": "theme__011__punk_pop"
+  }
+}

@@ -1,0 +1,46 @@
+version: '3'
+
+networks:
+  testnet:
+    driver: bridge
+
+services:
+  create-beacon-chain-genesis:
+    extends:
+      file: testnet/docker-compose.yml
+      service: create-beacon-chain-genesis
+  geth:
+    extends:
+      file: testnet/docker-compose.yml
+      service: geth
+  beacon-chain:
+    extends:
+      file: testnet/docker-compose.yml
+      service: beacon-chain
+    depends_on:
+      geth:
+        condition: service_started
+      create-beacon-chain-genesis:
+        condition: service_completed_successfully
+  validator:
+    extends:
+      file: testnet/docker-compose.yml
+      service: validator
+    depends_on:
+      beacon-chain:
+        condition: service_started
+  launch:
+    depends_on:
+      geth:
+        condition: service_started
+      beacon-chain:
+        condition: service_started
+      validator:
+        condition: service_started
+    extends:
+      file: contracts/docker-compose.yml
+      service: launch
+  web:
+    extends:
+      file: web/docker-compose.yml
+      service: web

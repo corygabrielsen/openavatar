@@ -1,0 +1,38 @@
+{
+  "body": {
+    "patternName": "nipples_masculine",
+    "paletteName": "human010"
+  },
+  "tattoos": {
+    "patternName": "teardrops",
+    "paletteName": "theme__130__periwinkle"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "rose_gold3"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "rose_gold3"
+  },
+  "bottomwear": {
+    "patternName": "pants_solid4",
+    "paletteName": "theme__011__punk_pop"
+  },
+  "footwear": {
+    "patternName": "shoes7",
+    "paletteName": "theme__011__punk_pop"
+  },
+  "topwear": {
+    "patternName": "tshirt_pocket7",
+    "paletteName": "theme__011__punk_pop"
+  },
+  "facial_hair": {
+    "patternName": "bushy_beard",
+    "paletteName": "theme__011__punk_pop"
+  },
+  "hair": {
+    "patternName": "small_afro",
+    "paletteName": "theme__011__punk_pop"
+  }
+}

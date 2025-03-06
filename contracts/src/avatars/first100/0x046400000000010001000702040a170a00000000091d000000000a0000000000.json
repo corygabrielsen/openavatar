@@ -1,0 +1,34 @@
+{
+  "body": {
+    "patternName": "nipples_masculine",
+    "paletteName": "sunburn1"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "bottomwear": {
+    "patternName": "pants_solid7",
+    "paletteName": "theme__003__gray"
+  },
+  "footwear": {
+    "patternName": "shoes4",
+    "paletteName": "theme__011__punk_pop"
+  },
+  "topwear": {
+    "patternName": "tshirt_speckled1",
+    "paletteName": "theme__011__punk_pop"
+  },
+  "jewelry": {
+    "patternName": "chain_20mm",
+    "paletteName": "metal_chromium"
+  },
+  "eyewear": {
+    "patternName": "sunshield",
+    "paletteName": "sun_reflection"
+  }
+}

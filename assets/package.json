@@ -1,0 +1,36 @@
+{
+  "name": "@openavatar/assets",
+  "version": "0.1.0",
+  "main": "dist/index",
+  "typings": "dist/index",
+  "scripts": {
+    "build:phase1": "mkdir -p artifacts && cp -r assets/patterns/ artifacts/ && cp -r assets/palettes/ artifacts/ && ts-node -P tsconfig.phase1.json scripts/render.ts && yarn prettier --write generated",
+    "build:phase2": "tsc",
+    "build": "yarn build:phase1 && yarn build:phase2",
+    "clean": "rm -rf artifacts/* dist/* generated/*",
+    "coverage": "echo \"@openavatar/assets: no coverage yet\"",
+    "format": "yarn prettier --write scripts src test",
+    "format:check": "yarn prettier --check scripts src test",
+    "lint": "yarn eslint --ext .ts .",
+    "patternize": "yarn ts-node scripts/patternize.ts",
+    "patternize:art": "for f in $(ls art/*.png); do yarn ts-node scripts/patternize.ts $f; done",
+    "patternize:validate": "yarn clean && yarn build && yarn patternize && rm -rf assets/patterns && cp -r artifacts/__patterns__/ assets/patterns",
+    "test": "mocha --require ts-node/register --require tsconfig-paths/register --bail test/**/*.test.ts",
+    "test:png": "mocha --require ts-node/register --require tsconfig-paths/register --bail test/**/*PNG*.test.ts"
+  },
+  "author": "Cory Gabrielsen (cory.eth)",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@openavatar/types": "0.1.0",
+    "@types/jimp": "^0.2.28",
+    "jimp": "^0.22.7",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.15.10",
+    "@types/yargs": "^17.0.23",
+    "mocha": "^10.2.0",
+    "typescript": "^5.1.3"
+  }
+}

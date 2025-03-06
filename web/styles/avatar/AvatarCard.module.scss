@@ -1,0 +1,156 @@
+@import '../constants';
+
+.container2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pfpSettings {
+  margin-top: 0.5rem;
+}
+
+.container {
+  background-color: #eee;
+  //   display: flex;
+  align-items: center;
+  justify-content: center;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+  font-family: $font-family;
+
+  height: 100%;
+  width: fit-content;
+
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.textRecords {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 0.5rem;
+}
+.propertiesContainer {
+  .textRecords {
+    display: none;
+  }
+}
+
+.spriteContainer,
+.propertiesContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.propertiesContainer {
+  // content at top of div
+  justify-content: flex-start;
+}
+
+.sprite384x384 {
+  display: none;
+}
+
+.sprite256x256 {
+  display: none;
+}
+
+.downloadBar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 0.5em;
+  grid-row-gap: 0.5em;
+  font-family: $font-family;
+  margin-top: 1rem;
+
+  @media (max-width: $media-query-medium) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  @media (max-width: $media-query-medium-small) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.downloadButton {
+  // border: 1px solid $color-dark;
+  border: none;
+  border-radius: 0.25rem;
+  font-family: $font-family;
+  // font-size: 1rem;
+  padding: 0.25rem;
+  margin: 0 0.1rem;
+
+  cursor: pointer;
+  &:hover {
+    background-color: $color-gray-accent;
+  }
+  &:active {
+    background-color: $color-secondary;
+  }
+}
+
+.mintFromButton {
+  margin-top: 1rem;
+}
+
+@media (max-width: $media-query-large) {
+  // .sprite256x256 {
+  //   display: none;
+  // }
+  .sprite384x384 {
+    display: flex;
+  }
+  .sprite512x512 {
+    display: none;
+  }
+}
+@media (max-width: $media-query-medium-large) {
+  .container {
+    display: flex;
+
+    .spriteContainer {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+@media (max-width: $media-query-medium) {
+  .container {
+    flex-direction: column;
+  }
+  .spriteContainer {
+    .textRecords {
+      display: none;
+    }
+  }
+  .propertiesContainer {
+    .textRecords {
+      display: flex;
+    }
+  }
+}
+
+@media (max-width: $media-query-medium-small) {
+  .sprite256x256 {
+    display: flex;
+  }
+  .sprite384x384 {
+    display: none;
+  }
+}
+
+@media (max-width: $media-query-small) {
+}

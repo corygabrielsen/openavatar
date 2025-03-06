@@ -1,0 +1,34 @@
+{
+  "body": {
+    "patternName": "inner_chest",
+    "paletteName": "human090"
+  },
+  "tattoos": {
+    "patternName": "bodytat",
+    "paletteName": "theme__001__black"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "blue7"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "blue7"
+  },
+  "footwear": {
+    "patternName": "shoes4",
+    "paletteName": "theme__113__azure_escape"
+  },
+  "jewelry": {
+    "patternName": "bracelet_left",
+    "paletteName": "metal_alloy_pewter"
+  },
+  "eyewear": {
+    "patternName": "vr",
+    "paletteName": "gray"
+  },
+  "hair": {
+    "patternName": "buzzed",
+    "paletteName": "natural_dark_gray"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "body": {
+    "patternName": "nipples_masculine",
+    "paletteName": "sunburn3"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "bottomwear": {
+    "patternName": "space_suit",
+    "paletteName": "cyan"
+  },
+  "handwear": {
+    "patternName": "gloves4",
+    "paletteName": "theme__103__cyan"
+  },
+  "outerwear": {
+    "patternName": "belt",
+    "paletteName": "black_black"
+  },
+  "jewelry": {
+    "patternName": "bracelets",
+    "paletteName": "metal_gold"
+  },
+  "eyewear": {
+    "patternName": "ar_vr_visor",
+    "paletteName": "semi_transluscent_cyan"
+  },
+  "hair": {
+    "patternName": "short_shaggy",
+    "paletteName": "natural_blonde"
+  }
+}

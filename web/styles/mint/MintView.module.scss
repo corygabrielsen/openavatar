@@ -1,0 +1,46 @@
+@import '../constants.scss';
+
+.container {
+  // handled in JS
+  // background-image: url(/checkerboard.png);
+
+  min-width: 360px;
+  height: 100%;
+  width: 100%;
+}
+
+.mintButtonContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  width: fit-content;
+  z-index: 999;
+}
+
+.sprite {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.floatingButtonFooter {
+  // elements should be on the far bottom right
+  align-items: flex-end;
+  bottom: 0.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+
+  position: fixed;
+  // left: 0;
+  right: 10px;
+
+  // width: 100%;
+  z-index: 999;
+}

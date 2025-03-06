@@ -1,0 +1,61 @@
+@import '../../constants';
+
+.container {
+  box-sizing: content-box;
+  // border: 4px solid #888888;
+  // border-radius: 8px;
+
+  // cursor: pointer;
+
+  width: 100%;
+  height: 100%;
+}
+
+// .container > div {
+//   /* seems to need to be less than avatar border-radius? */
+//   border-radius: 4px;
+// }
+
+.container.selected {
+  border: 4px solid $color-secondary;
+  cursor: default;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(2);
+    z-index: 1;
+  }
+  100% {
+    transform: scale(2);
+    z-index: 1;
+  }
+}
+
+.container.unselected:hover {
+  /* color should signify 'click to select' */
+  /* will be placed against dark gray background so needs to be not too dark */
+  border: 4px solid #189ad3;
+}
+
+/* not mobile media query */
+@media screen and (min-width: $media-query-medium-small) {
+  .container.unselected:hover {
+    animation: shake 0.2s, zoom 60s 0.75s;
+  }
+  .container.selected:hover {
+    animation: zoom 60s 0.75s;
+  }
+}

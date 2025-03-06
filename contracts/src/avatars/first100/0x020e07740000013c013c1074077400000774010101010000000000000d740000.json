@@ -1,0 +1,42 @@
+{
+  "body": {
+    "patternName": "inner_chest",
+    "paletteName": "human015"
+  },
+  "tattoos": {
+    "patternName": "bodytat2",
+    "paletteName": "theme__117__coastal_waters"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "blue5"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "blue5"
+  },
+  "bottomwear": {
+    "patternName": "pants_speckled4",
+    "paletteName": "theme__117__coastal_waters"
+  },
+  "footwear": {
+    "patternName": "shoes7",
+    "paletteName": "theme__117__coastal_waters"
+  },
+  "handwear": {
+    "patternName": "gloves7",
+    "paletteName": "theme__117__coastal_waters"
+  },
+  "outerwear": {
+    "patternName": "belt",
+    "paletteName": "black_gold"
+  },
+  "jewelry": {
+    "patternName": "earrings",
+    "paletteName": "metal_gold"
+  },
+  "hair": {
+    "patternName": "floppy",
+    "paletteName": "theme__117__coastal_waters"
+  }
+}

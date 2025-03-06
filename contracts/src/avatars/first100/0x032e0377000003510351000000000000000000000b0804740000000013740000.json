@@ -1,0 +1,30 @@
+{
+  "body": {
+    "patternName": "broad_chest",
+    "paletteName": "human047"
+  },
+  "tattoos": {
+    "patternName": "armsleeves",
+    "paletteName": "theme__120__blue_slateblue"
+  },
+  "left_eye": {
+    "patternName": "vertical",
+    "paletteName": "special_pure_black"
+  },
+  "right_eye": {
+    "patternName": "vertical",
+    "paletteName": "special_pure_black"
+  },
+  "jewelry": {
+    "patternName": "medallion_chain",
+    "paletteName": "crystal_aquamarine"
+  },
+  "facial_hair": {
+    "patternName": "chin_puff",
+    "paletteName": "theme__117__coastal_waters"
+  },
+  "hair": {
+    "patternName": "pharaoh",
+    "paletteName": "theme__117__coastal_waters"
+  }
+}

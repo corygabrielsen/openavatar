@@ -1,0 +1,51 @@
+.container {
+  padding: 1rem;
+
+  width: fit-content;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .label {
+    min-width: 300px;
+  }
+}
+
+.contractName,
+.address {
+  flex: 1;
+  padding: 0.25rem;
+  text-align: left;
+
+  &:not(:last-child) {
+    border-right: 1px solid #e1e1e1;
+  }
+}
+
+.address {
+  &:hover {
+    cursor: pointer;
+    color: #0070f3;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .contractName,
+  .address {
+    text-align: center;
+    border-right: none;
+    padding: 0.3rem;
+  }
+}

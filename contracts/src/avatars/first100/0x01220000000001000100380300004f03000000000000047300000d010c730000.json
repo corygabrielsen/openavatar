@@ -1,0 +1,34 @@
+{
+  "body": {
+    "patternName": "bare_chest",
+    "paletteName": "human035"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "bottomwear": {
+    "patternName": "space_suit",
+    "paletteName": "gold"
+  },
+  "topwear": {
+    "patternName": "space_suit",
+    "paletteName": "gold"
+  },
+  "facial_hair": {
+    "patternName": "chin_puff",
+    "paletteName": "theme__116__marine_blue"
+  },
+  "eyewear": {
+    "patternName": "ar_vr_visor",
+    "paletteName": "semi_transluscent_diamond"
+  },
+  "hair": {
+    "patternName": "short_shaggy",
+    "paletteName": "theme__116__marine_blue"
+  }
+}

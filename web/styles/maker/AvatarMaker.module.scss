@@ -1,0 +1,72 @@
+@import '../constants.scss';
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: $font-family;
+  height: fit-content;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  position: relative;
+}
+
+.avatarSpriteContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: -1rem 0 0 0;
+}
+
+.avatarControls {
+  align-items: center;
+  /* matte slightly blue gray */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  width: 100%;
+}
+
+.main {
+  align-items: center;
+  background-color: $color-dark;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.avatarPicker {
+  padding: 0;
+  width: 100%;
+}
+
+.description {
+  border-radius: 0.5rem;
+  border: 2px solid #189ad3;
+  background-color: $color-dark;
+  margin: 0.5rem auto;
+  padding: 0.25rem 0;
+  width: 100%;
+}
+
+.description > p {
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+  margin: 0.25rem auto;
+  text-align: center;
+}
+
+.properties {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 1rem auto;
+  width: fit-content;
+  height: fit-content;
+}

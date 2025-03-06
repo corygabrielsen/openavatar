@@ -1,0 +1,146 @@
+@import '../../constants';
+
+.container {
+  background-color: transparent;
+
+  font-size: 1rem;
+  font-family: $font-family;
+  font-weight: 300;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  // height: 100%;
+  // padding: 1em;
+  text-align: right;
+  width: 100%;
+
+  // border-radius: 0.5rem;
+  /* horizontal lines between grid rows */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 0.5em;
+  grid-row-gap: 0.25em;
+  width: 100%;
+}
+
+.gridLabel {
+  background-color: $color-gray-accent;
+  border-radius: 0.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin: 0;
+  padding: 0.25em 0.5em;
+
+  text-align: left;
+}
+
+.gridValue {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  &:not(.patternPalette) {
+    border-bottom: 1px solid #aaa;
+  }
+
+  font-family: 'Courier New', Courier, monospace;
+
+  margin: 0;
+  padding: 0.25em 0.25em 0.25em 1.5em;
+}
+
+.dna {
+  /* force wrap for small screens */
+  overflow-wrap: break-word;
+  font-size: 0.85rem;
+  max-width: 280px;
+
+  margin: 0;
+  // padding: 0;
+}
+
+.patternPalette {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0.5em;
+  grid-row-gap: 0.5em;
+
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+}
+
+.patternPalleteEntry {
+  background: $color-checkerboard-dark; // $color-gray-accent;
+  border-radius: 0.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0.25em 0.5em;
+  text-align: center;
+  // height: 3rem;
+  width: 100%;
+  height: 100%;
+
+  min-width: 250px;
+}
+
+@media (max-width: $media-query-large) {
+  .grid {
+    font-size: 0.8rem;
+  }
+  .dna {
+    font-size: 0.8rem;
+    max-width: 262px;
+  }
+
+  .patternPalleteEntry {
+    min-width: fit-content;
+  }
+}
+
+@media (max-width: $media-query-medium-large) {
+  .grid {
+    font-size: 0.7rem;
+  }
+  .dna {
+    font-size: 0.7rem;
+    max-width: 232px;
+  }
+}
+
+@media (max-width: $media-query-medium) {
+  .grid {
+    font-size: 0.6rem;
+  }
+  .dna {
+    font-size: 0.6rem;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: $media-query-small) {
+  .grid {
+    font-size: 0.5rem;
+  }
+  .dna {
+    font-size: 0.5rem;
+    max-width: 166px;
+  }
+}

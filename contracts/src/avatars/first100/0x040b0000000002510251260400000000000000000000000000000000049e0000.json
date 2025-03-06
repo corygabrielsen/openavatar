@@ -1,0 +1,22 @@
+{
+  "body": {
+    "patternName": "nipples_masculine",
+    "paletteName": "human012"
+  },
+  "left_eye": {
+    "patternName": "horizontal",
+    "paletteName": "special_pure_black"
+  },
+  "right_eye": {
+    "patternName": "horizontal",
+    "paletteName": "special_pure_black"
+  },
+  "bottomwear": {
+    "patternName": "underwear_solid7",
+    "paletteName": "theme__005__white"
+  },
+  "hair": {
+    "patternName": "skullet",
+    "paletteName": "natural_light_gray"
+  }
+}

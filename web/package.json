@@ -1,0 +1,48 @@
+{
+  "name": "@openavatar/web",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "yarn clean && yarn build:next && yarn export",
+    "build:next": "NEXT_EXPORT=true yarn next build",
+    "build:lazy": "test -f .next/BUILD_ID || yarn build",
+    "clean": "rm -rf .next/* out/* 2>/dev/null || docker compose run --rm web rm -rf .next out",
+    "coverage": "echo \"No coverage yet\"",
+    "dev": "yarn next dev",
+    "export": "NEXT_EXPORT=true yarn next export",
+    "format": "yarn prettier --config ../.prettierrc --write .",
+    "format:check": "yarn prettier --config ../.prettierrc --check .",
+    "lint": "yarn next lint",
+    "screenshot": "scripts/screenshot",
+    "start": "yarn next start",
+    "test": "test/test-startup.sh"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^1.x.x",
+    "js-cookie": "^3.0.1",
+    "next": "^13.2.4",
+    "puppeteer": "^19.8.0",
+    "react": "^18.2.0",
+    "react-color": "^2.19.3",
+    "react-dom": "^18.1.0",
+    "react-hot-toast": "^2.4.1",
+    "sass": "^1.60.0",
+    "styled-components": "^5.3.9",
+    "ts-loader": "^9.4.2",
+    "viem": "^1.10.1",
+    "wagmi": "^1.x.x"
+  },
+  "devDependencies": {
+    "@openavatar/assets": "0.1.0",
+    "@openavatar/types": "0.1.0",
+    "@types/js-cookie": "^3.0.3",
+    "@types/node": "^18.15.10",
+    "@types/react": "^18.0.26",
+    "@types/react-color": "^3.0.6",
+    "@types/styled-components": "^5.1.26",
+    "babel-plugin-styled-components": "^2.1.1",
+    "eslint": "^8.36.0",
+    "eslint-config-next": "^13.2.4",
+    "typescript": "^5.1.3"
+  }
+}

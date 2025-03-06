@@ -1,0 +1,38 @@
+{
+  "body": {
+    "patternName": "large_breasts",
+    "paletteName": "human006"
+  },
+  "makeup": {
+    "patternName": "lipstick_eye_shadow",
+    "paletteName": "purple"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "violet3"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "violet3"
+  },
+  "bottomwear": {
+    "patternName": "skirt_gradient5",
+    "paletteName": "theme__134__lilac"
+  },
+  "footwear": {
+    "patternName": "shoes5",
+    "paletteName": "theme__102__diamond"
+  },
+  "topwear": {
+    "patternName": "tanktop_solid7",
+    "paletteName": "theme__134__lilac"
+  },
+  "jewelry": {
+    "patternName": "chain_10mm",
+    "paletteName": "crystal_diamond"
+  },
+  "hair": {
+    "patternName": "long_straight",
+    "paletteName": "theme__133__cotton_candy"
+  }
+}

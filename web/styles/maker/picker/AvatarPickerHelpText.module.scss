@@ -1,0 +1,23 @@
+@import '../../constants';
+
+.text {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: $media-query-medium-small) {
+  .text {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: $media-query-small) {
+  .text {
+    font-size: 1rem;
+  }
+}

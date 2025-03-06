@@ -1,0 +1,26 @@
+{
+  "body": {
+    "patternName": "broad_chest",
+    "paletteName": "human010"
+  },
+  "tattoos": {
+    "patternName": "bodytat",
+    "paletteName": "theme__116__marine_blue"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "blue7"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "blue7"
+  },
+  "jewelry": {
+    "patternName": "medallion_chain",
+    "paletteName": "crystal_diamond"
+  },
+  "hair": {
+    "patternName": "wild",
+    "paletteName": "theme__116__marine_blue"
+  }
+}

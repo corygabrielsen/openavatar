@@ -1,0 +1,34 @@
+{
+  "body": {
+    "patternName": "nipples_masculine",
+    "paletteName": "human026"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "turquoise1"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "turquoise1"
+  },
+  "bottomwear": {
+    "patternName": "pants_solid4",
+    "paletteName": "theme__124__blue_denim"
+  },
+  "footwear": {
+    "patternName": "shoes7",
+    "paletteName": "theme__090__caribbean_beach"
+  },
+  "topwear": {
+    "patternName": "vneck_solid7",
+    "paletteName": "theme__085__rainforest_rhapsody"
+  },
+  "outerwear": {
+    "patternName": "tunic_strap",
+    "paletteName": "brown_gold"
+  },
+  "hair": {
+    "patternName": "long_behind_ears",
+    "paletteName": "theme__090__caribbean_beach"
+  }
+}

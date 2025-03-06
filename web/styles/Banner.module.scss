@@ -1,0 +1,138 @@
+@import './constants.scss';
+
+.header {
+  display: flex;
+  flex-direction: row;
+  font-family: $font-family;
+  justify-content: space-between;
+  min-height: 40px;
+  padding: 0;
+  width: 100%;
+}
+
+.logotitleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 3rem;
+  width: 3rem;
+  margin: 0 0.5rem;
+  padding: 0;
+  image-rendering: pixelated;
+}
+
+.navbarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  color: $color-primary;
+  font-size: 4rem;
+  font-weight: normal;
+  padding: 0 1rem;
+  margin: 0;
+  text-align: center;
+}
+
+.navbar {
+  align-items: center;
+  border-bottom: 2px solid transparent;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  justify-content: center;
+  height: 100%;
+  margin: 0 0 0 1rem;
+  padding: 0;
+}
+
+.navbarItem {
+  border-bottom: 4px solid transparent !important;
+  &:hover > p {
+    border-bottom: 4px solid $color-primary;
+  }
+
+  &.selected {
+    border-bottom: 4px solid $color-primary !important;
+  }
+}
+
+.navbarItem:hover.selected {
+  cursor: default;
+}
+
+.navbarItem {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  font-family: $font-family;
+  font-size: 1.5rem;
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+  list-style: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 6rem;
+
+  &:hover {
+    background-color: $color-gray-accent;
+  }
+
+  &:hover.selected {
+    background-color: transparent;
+  }
+}
+.connectButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.connectButtonContainer > button {
+  font-family: $font-family;
+}
+
+@media (max-width: $media-query-large) {
+  .navbarItem {
+    width: 5rem;
+  }
+}
+@media (max-width: $media-query-medium) {
+  .header {
+    align-items: center;
+    flex-direction: column;
+    min-height: 80px;
+  }
+  .navbarItem {
+    font-size: 1.2rem;
+    width: 4rem;
+  }
+  .title {
+    font-size: 5rem;
+  }
+}
+@media (max-width: $media-query-medium-small) {
+  .title {
+    font-size: 4.5rem;
+  }
+  // .connectButtonContainer {
+  //   display: none;
+  //   width: 100%;
+  // }
+}

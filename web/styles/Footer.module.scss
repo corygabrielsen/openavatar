@@ -1,0 +1,29 @@
+@import './constants.scss';
+
+.footer {
+  align-items: center;
+  background-color: $color-checkerboard-light;
+  bottom: 0;
+  color: black;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  width: 100%;
+  font-size: 0.7em;
+  font-weight: 300;
+  position: relative;
+}
+
+/* Commented since they're not used in the current components, but you might need them for reference
+.github {
+  right: 72px;
+}
+
+.github:hover > svg {
+  fill: black;
+}
+
+.github > svg {
+  fill: gray;
+}
+*/

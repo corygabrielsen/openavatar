@@ -1,0 +1,42 @@
+{
+  "body": {
+    "patternName": "bare_chest",
+    "paletteName": "human026"
+  },
+  "tattoos": {
+    "patternName": "crest",
+    "paletteName": "theme__122__winter_whispers"
+  },
+  "makeup": {
+    "patternName": "blush2",
+    "paletteName": "subtle_cyan"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "bottomwear": {
+    "patternName": "pants_gradient3",
+    "paletteName": "theme__122__winter_whispers"
+  },
+  "jewelry": {
+    "patternName": "bracelet_right",
+    "paletteName": "crystal_obsidian"
+  },
+  "facial_hair": {
+    "patternName": "handlebar_mustache",
+    "paletteName": "theme__122__winter_whispers"
+  },
+  "eyewear": {
+    "patternName": "sunglasses_retro",
+    "paletteName": "diamond"
+  },
+  "hair": {
+    "patternName": "shaggy",
+    "paletteName": "theme__122__winter_whispers"
+  }
+}

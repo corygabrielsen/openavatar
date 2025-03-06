@@ -1,0 +1,696 @@
+yarn run v1.22.19
+$ /home/dev/code/openavatar/node_modules/.bin/ts-node scripts/sort_colors.ts
+
+Palette: 0
+    #2d002dff
+    #590059ff
+    #900090ff
+    #c100c1ff
+    #ff00ffff
+    #ff80ffff
+    #ffaeffff
+
+Palette: 1
+    #200020ff
+    #400040ff
+    #600060ff
+    #800080ff
+    #a020a0ff
+    #c040c0ff
+    #e060e0ff
+
+Palette: 2
+    #120012ff
+    #240024ff
+    #360036ff
+    #480048ff
+    #5a005aff
+    #900090ff
+    #c600c6ff
+
+Palette: 3
+    #2a172aff
+    #532d53ff
+    #864986ff
+    #b462b4ff
+    #ee82eeff
+    #fbaefbff
+    #fec5feff
+
+Palette: 4
+    #14060dff
+    #550f4bff
+    #5e0960ff
+    #71007cff
+    #913075ff
+    #ac2e6cff
+    #ff3093ff
+
+Palette: 5
+    #14060fff
+    #280c1fff
+    #3d122fff
+    #51183fff
+    #651e4fff
+    #a26081ff
+    #dfa1b3ff
+
+Palette: 6
+    #14060dff
+    #280c1aff
+    #3c1227ff
+    #501834ff
+    #641e41ff
+    #a04a74ff
+    #dc77a7ff
+
+Palette: 7
+    #20030eff
+    #4a0d24ff
+    #6c1435ff
+    #8e1b46ff
+    #b02257ff
+    #d23768ff
+    #f44c79ff
+
+Palette: 8
+    #1c070bff
+    #380e16ff
+    #5a1623ff
+    #7a253cff
+    #993d56ff
+    #af5b6dff
+    #c16d7fff
+
+Palette: 9
+    #660010ff
+    #990018ff
+    #cc0020ff
+    #e1102fff
+    #ec203fff
+    #f73f5eff
+    #ff5e7dff
+
+Palette: 10
+    #2c1317ff
+    #58262dff
+    #8e3d48ff
+    #be5261ff
+    #f5a2a9ff
+    #ed788dff
+    #f18da2ff
+
+Palette: 11
+    #1e0609ff
+    #3c0c12ff
+    #5b131cff
+    #791925ff
+    #971f2eff
+    #d4576aff
+    #e9899dff
+
+Palette: 12
+    #280709ff
+    #500e12ff
+    #82161cff
+    #b01e26ff
+    #dc4839ff
+    #e56464ff
+    #ef7777ff
+
+Palette: 13
+    #120000ff
+    #240000ff
+    #360000ff
+    #480000ff
+    #5a0000ff
+    #900000ff
+    #c60000ff
+
+Palette: 14
+    #1c0505ff
+    #380a0aff
+    #551010ff
+    #711515ff
+    #8e1b1bff
+    #c84f4fff
+    #ea8181ff
+
+Palette: 15
+    #101010ff
+    #202020ff
+    #404040ff
+    #606060ff
+    #808080ff
+    #a0a0a0ff
+    #b8b8b8ff
+
+Palette: 16
+    #400404ff
+    #790808ff
+    #af0c0cff
+    #c81818ff
+    #e33030ff
+    #f05151ff
+    #ff7272ff
+
+Palette: 17
+    #250201ff
+    #4e0604ff
+    #790805ff
+    #a60604ff
+    #cf0604ff
+    #e01f01ff
+    #ec5623ff
+
+Palette: 18
+    #230a00ff
+    #461300ff
+    #6a1d00ff
+    #8d2700ff
+    #b13000ff
+    #fc834aff
+    #fcb689ff
+
+Palette: 19
+    #1d130eff
+    #3a271cff
+    #573a2aff
+    #744d38ff
+    #916046ff
+    #cb9a7aff
+    #ebc7aeff
+
+Palette: 20
+    #19110bff
+    #332216ff
+    #4d3321ff
+    #66442cff
+    #805538ff
+    #b38665ff
+    #e5b892ff
+
+Palette: 21
+    #190b00ff
+    #331600ff
+    #4d2200ff
+    #662d00ff
+    #803900ff
+    #b3662fff
+    #e5935eff
+
+Palette: 22
+    #190a00ff
+    #331400ff
+    #4c1e00ff
+    #662800ff
+    #7f3200ff
+    #cc6600ff
+    #e59933ff
+
+Palette: 23
+    #231911ff
+    #453222ff
+    #705138ff
+    #976d4bff
+    #bd8b63ff
+    #d5ae85ff
+    #e3bd98ff
+
+Palette: 24
+    #281807ff
+    #50300eff
+    #824e16ff
+    #b06a1eff
+    #dc8930ff
+    #e5a764ff
+    #efba80ff
+
+Palette: 25
+    #591b00ff
+    #873400ff
+    #b54d00ff
+    #da6600ff
+    #ec8100ff
+    #fba519ff
+    #ffc932ff
+
+Palette: 26
+    #19140bff
+    #332916ff
+    #4d3e21ff
+    #66532cff
+    #806838ff
+    #b39a65ff
+    #e5cc92ff
+
+Palette: 27
+    #2a230fff
+    #53461dff
+    #86712fff
+    #b4983fff
+    #e2bf4fff
+    #efd07bff
+    #f9de99ff
+
+Palette: 28
+    #806400ff
+    #b48c00ff
+    #e8b400ff
+    #ffcd32ff
+    #ffe664ff
+    #ffff96ff
+    #ffffc8ff
+
+Palette: 29
+    #463d15ff
+    #8c7929ff
+    #c3a93cff
+    #d1ba4bff
+    #eeda72ff
+    #f4e99fff
+    #f8f2b7ff
+
+Palette: 30
+    #19180bff
+    #333116ff
+    #4d4921ff
+    #66622cff
+    #807a38ff
+    #b3ae65ff
+    #e5e292ff
+
+Palette: 31
+    #121200ff
+    #242400ff
+    #363600ff
+    #484800ff
+    #5a5a00ff
+    #909000ff
+    #c6c600ff
+
+Palette: 32
+    #1a1b0fff
+    #34361dff
+    #4e512cff
+    #676b3bff
+    #81864aff
+    #b5bb76ff
+    #e3e8a2ff
+
+Palette: 33
+    #1b1e07ff
+    #353d0fff
+    #4f5b16ff
+    #697a1eff
+    #839825ff
+    #b8d148ff
+    #ecf476ff
+
+Palette: 34
+    #0d1406ff
+    #4b550fff
+    #605e09ff
+    #7c7100ff
+    #759130ff
+    #6cac2eff
+    #93ff30ff
+
+Palette: 35
+    #081000ff
+    #102000ff
+    #204000ff
+    #306000ff
+    #408000ff
+    #50a000ff
+    #60b000ff
+
+Palette: 36
+    #12180cff
+    #243118ff
+    #364924ff
+    #48622fff
+    #5a7a3bff
+    #87b759ff
+    #b5f377ff
+
+Palette: 37
+    #111e07ff
+    #223d0fff
+    #335b16ff
+    #447a1eff
+    #559825ff
+    #7fd148ff
+    #adf476ff
+
+Palette: 38
+    #0e190cff
+    #1e3519ff
+    #2d5026ff
+    #3d6b33ff
+    #4d8640ff
+    #77b163ff
+    #a6db86ff
+
+Palette: 39
+    #0e160cff
+    #1b2b17ff
+    #294022ff
+    #36552dff
+    #446a38ff
+    #639b55ff
+    #82cc72ff
+
+Palette: 40
+    #141e12ff
+    #283b24ff
+    #405f3aff
+    #56814eff
+    #71a468ff
+    #95bb8cff
+    #abcc9dff
+
+Palette: 41
+    #001200ff
+    #002400ff
+    #003600ff
+    #004800ff
+    #005a00ff
+    #009000ff
+    #00c600ff
+
+Palette: 42
+    #172017ff
+    #2d3f2dff
+    #435e43ff
+    #597d59ff
+    #6f9c6fff
+    #9dcb9eff
+    #caf9cbff
+
+Palette: 43
+    #17261dff
+    #2d4b3aff
+    #487a5eff
+    #61a47dff
+    #7dca9eff
+    #a2dabaff
+    #b9e7cbff
+
+Palette: 44
+    #101914ff
+    #213229ff
+    #314c3dff
+    #426552ff
+    #527f67ff
+    #7ab894ff
+    #a3f0c2ff
+
+Palette: 45
+    #1c342aff
+    #274638ff
+    #2d5542ff
+    #33664fff
+    #407c5dff
+    #5a9971ff
+    #7bb588ff
+
+Palette: 46
+    #111b16ff
+    #22362cff
+    #335143ff
+    #446c59ff
+    #55876fff
+    #7fc1a6ff
+    #adf0d6ff
+
+Palette: 47
+    #0a1c14ff
+    #133829ff
+    #1c553eff
+    #257152ff
+    #2d8d67ff
+    #4fc395ff
+    #75f0c3ff
+
+Palette: 48
+    #0f211bff
+    #1d4235ff
+    #2e6b55ff
+    #3e9073ff
+    #56b795ff
+    #80c9a9ff
+    #96ddbcff
+
+Palette: 49
+    #143c32ff
+    #274f42ff
+    #3f7f6aff
+    #5fbf9fff
+    #7fffd4ff
+    #a8ffe5ff
+    #cdfff0ff
+
+Palette: 50
+    #1a2523ff
+    #314540ff
+    #47655dff
+    #5c8579ff
+    #71a596ff
+    #9acebbff
+    #c6e7d8ff
+
+Palette: 51
+    #001212ff
+    #002424ff
+    #003636ff
+    #004848ff
+    #005a5aff
+    #009090ff
+    #00c6c6ff
+
+Palette: 52
+    #101f1fff
+    #1f3d3dff
+    #326262ff
+    #448484ff
+    #5aa9a9ff
+    #8ac9c9ff
+    #a2ddddff
+
+Palette: 53
+    #0f3c4bff
+    #1d6471ff
+    #2e9db1ff
+    #3ecce5ff
+    #00ffffff
+    #80ffffff
+    #aaffffff
+
+Palette: 54
+    #1c2b32ff
+    #2c404cff
+    #285365ff
+    #1f687fff
+    #378a95ff
+    #3cb1b1ff
+    #a9e4eaff
+
+Palette: 55
+    #17292fff
+    #2b505aff
+    #3f7786ff
+    #549fb2ff
+    #69c6dfff
+    #93e0f2ff
+    #b7eef7ff
+
+Palette: 56
+    #1e2c33ff
+    #273b44ff
+    #2f4955ff
+    #365866ff
+    #3d6777ff
+    #4e8a9aff
+    #69adbeff
+
+Palette: 57
+    #060d14ff
+    #0f4b55ff
+    #09605eff
+    #007c71ff
+    #307591ff
+    #2e6cacff
+    #3093ffff
+
+Palette: 58
+    #0d181cff
+    #1a3038ff
+    #274854ff
+    #346071ff
+    #41778dff
+    #78abc5ff
+    #afdffdff
+
+Palette: 59
+    #16202bff
+    #22313fff
+    #2a3e51ff
+    #304b62ff
+    #375873ff
+    #4c7ea1ff
+    #6ca6d2ff
+
+Palette: 60
+    #0f1e32ff
+    #1d2c42ff
+    #2e476bff
+    #3e5f90ff
+    #567eb7ff
+    #809ec9ff
+    #98afd7ff
+
+Palette: 61
+    #1c1f28ff
+    #333848ff
+    #4a5167ff
+    #616a86ff
+    #7884a5ff
+    #9cadccff
+    #becce5ff
+
+Palette: 62
+    #000012ff
+    #000024ff
+    #000036ff
+    #000048ff
+    #00005aff
+    #000090ff
+    #0000c6ff
+
+Palette: 63
+    #0b0b14ff
+    #161628ff
+    #21213dff
+    #2c2c51ff
+    #373766ff
+    #666699ff
+    #9595ccff
+
+Palette: 64
+    #0b0b32ff
+    #161642ff
+    #23236bff
+    #2f2f90ff
+    #3f3fbfff
+    #5f5fd9ff
+    #7878e6ff
+
+Palette: 65
+    #1d1f33ff
+    #312c4dff
+    #3d355cff
+    #483f6bff
+    #524a7aff
+    #62689eff
+    #7487c0ff
+
+Palette: 66
+    #23243eff
+    #3c3b6eff
+    #56549cff
+    #6f6ccaff
+    #8686ecff
+    #ada8ffff
+    #c9c2ffff
+
+Palette: 67
+    #171338ff
+    #251d5eff
+    #312780ff
+    #3d31a1ff
+    #4a3cc2ff
+    #6b5ce9ff
+    #927dffff
+
+Palette: 68
+    #241931ff
+    #432b62ff
+    #5c3e8fff
+    #7452bbff
+    #8b69e7ff
+    #b690ffff
+    #d5b3ffff
+
+Palette: 69
+    #25173fff
+    #43227eff
+    #5c30b6ff
+    #763eeeff
+    #8b59ffff
+    #b278ffff
+    #d498ffff
+
+Palette: 70
+    #2b203cff
+    #4a3763ff
+    #654d89ff
+    #8064afff
+    #9c7dd4ff
+    #ba9bf0ff
+    #d1b8ffff
+
+Palette: 71
+    #110c19ff
+    #221732ff
+    #33234bff
+    #442e64ff
+    #55397dff
+    #8066aeff
+    #aa93e0ff
+
+Palette: 72
+    #1e1927ff
+    #3c324eff
+    #61517eff
+    #836cabff
+    #ad8dd6ff
+    #c2a9e5ff
+    #d2bbefff
+
+Palette: 73
+    #0f0819ff
+    #1e1032ff
+    #2e184bff
+    #3d2064ff
+    #4c287dff
+    #835eaeff
+    #ba93e0ff
+
+Palette: 74
+    #0d0017ff
+    #1a002dff
+    #2a0048ff
+    #380062ff
+    #4b0082ff
+    #6839a5ff
+    #7e58baff
+
+Palette: 75
+    #221a24ff
+    #443447ff
+    #5e4965ff
+    #785e82ff
+    #91759fff
+    #bd9ac7ff
+    #debfe4ff
+
+Palette: 76
+    #1a151bff
+    #332936ff
+    #524257ff
+    #715976ff
+    #95719cff
+    #b689bfff
+    #ca9bd2ff
+Done in 1.30s.

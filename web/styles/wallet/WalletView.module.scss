@@ -1,0 +1,25 @@
+@import '../constants';
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  font-family: $font-family;
+}
+
+.title {
+  font-weight: normal;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

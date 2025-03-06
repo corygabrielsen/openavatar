@@ -1,0 +1,26 @@
+@import './constants.scss';
+
+html,
+body {
+  background-color: $color-bg;
+  padding: 0;
+  margin: 0;
+  font-family: $font-family;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'VT323';
+  src: url(/fonts/VT323/VT323-Regular.woff2) format('woff2'), url(/fonts/VT323/VT323-Regular.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

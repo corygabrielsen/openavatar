@@ -1,0 +1,34 @@
+{
+  "body": {
+    "patternName": "inner_chest",
+    "paletteName": "human008"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "bottomwear": {
+    "patternName": "shorts_speckled4",
+    "paletteName": "theme__117__coastal_waters"
+  },
+  "jewelry": {
+    "patternName": "chain_10mm",
+    "paletteName": "crystal_diamond"
+  },
+  "facial_hair": {
+    "patternName": "chin_puff",
+    "paletteName": "theme__117__coastal_waters"
+  },
+  "eyewear": {
+    "patternName": "glasses_3d",
+    "paletteName": "white"
+  },
+  "hair": {
+    "patternName": "wild",
+    "paletteName": "theme__117__coastal_waters"
+  }
+}

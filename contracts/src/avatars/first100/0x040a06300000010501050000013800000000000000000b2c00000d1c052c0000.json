@@ -1,0 +1,34 @@
+{
+  "body": {
+    "patternName": "nipples_masculine",
+    "paletteName": "human011"
+  },
+  "tattoos": {
+    "patternName": "bodytat",
+    "paletteName": "theme__049__light_brown"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "brown2"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "brown2"
+  },
+  "footwear": {
+    "patternName": "shoes1",
+    "paletteName": "theme__057__sunbaked_timber"
+  },
+  "facial_hair": {
+    "patternName": "bushy_beard",
+    "paletteName": "theme__045__desert_orange"
+  },
+  "eyewear": {
+    "patternName": "ar_vr_visor",
+    "paletteName": "semi_transluscent_orange"
+  },
+  "hair": {
+    "patternName": "long_balding",
+    "paletteName": "theme__045__desert_orange"
+  }
+}

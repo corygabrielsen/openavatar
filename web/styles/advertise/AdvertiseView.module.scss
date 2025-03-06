@@ -1,0 +1,49 @@
+@import '../constants';
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+
+  font-family: $font-family;
+}
+
+.title {
+  color: $color-primary;
+  // font-family: $font-family;
+  // font family is not the normal one but instead something more reminiscent of a title
+  // font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  font-size: 8rem;
+  font-weight: normal;
+  padding: 0;
+  margin: 2rem;
+  text-align: center;
+}
+
+.subtitle {
+  color: $color-secondary;
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 0 1rem;
+  margin: 0;
+  text-align: center;
+}
+
+.avatarGridContainer {
+  margin: 1rem;
+}
+
+.paragraph {
+  // color:
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding: 0 1rem;
+  margin: 0;
+  text-align: center;
+}

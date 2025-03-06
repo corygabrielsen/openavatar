@@ -1,0 +1,30 @@
+{
+  "body": {
+    "patternName": "bare_chest",
+    "paletteName": "sunburn2"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "brown4"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "brown4"
+  },
+  "bottomwear": {
+    "patternName": "space_suit",
+    "paletteName": "light"
+  },
+  "topwear": {
+    "patternName": "space_suit",
+    "paletteName": "light"
+  },
+  "jewelry": {
+    "patternName": "earrings2",
+    "paletteName": "crystal_diamond"
+  },
+  "eyewear": {
+    "patternName": "led_ticker",
+    "paletteName": "theme__004__light_gray"
+  }
+}

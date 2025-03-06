@@ -1,0 +1,30 @@
+{
+  "body": {
+    "patternName": "inner_chest",
+    "paletteName": "human034"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "special_blackeye"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "special_blackeye"
+  },
+  "bottomwear": {
+    "patternName": "underwear_solid4",
+    "paletteName": "theme__115__blue_sea"
+  },
+  "handwear": {
+    "patternName": "gloves7",
+    "paletteName": "theme__082__earth_and_sky"
+  },
+  "outerwear": {
+    "patternName": "big_belt",
+    "paletteName": "black_gold"
+  },
+  "hair": {
+    "patternName": "shaggy",
+    "paletteName": "theme__115__blue_sea"
+  }
+}

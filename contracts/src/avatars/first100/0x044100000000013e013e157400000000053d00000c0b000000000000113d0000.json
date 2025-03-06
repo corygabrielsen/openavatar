@@ -1,0 +1,30 @@
+{
+  "body": {
+    "patternName": "nipples_masculine",
+    "paletteName": "human066"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "blue7"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "blue7"
+  },
+  "bottomwear": {
+    "patternName": "shorts_solid5",
+    "paletteName": "theme__117__coastal_waters"
+  },
+  "handwear": {
+    "patternName": "gloves5",
+    "paletteName": "theme__062__gold"
+  },
+  "jewelry": {
+    "patternName": "medallion_necklace",
+    "paletteName": "gray_gold"
+  },
+  "hair": {
+    "patternName": "spiky",
+    "paletteName": "theme__062__gold"
+  }
+}

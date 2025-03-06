@@ -1,0 +1,20 @@
+@import '../../constants.scss';
+
+.toast {
+  align-items: center;
+  background: $color-primary;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: center;
+  // background: '#189ad3',
+  padding: 10px;
+}
+
+.toastContent {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 0.5em;
+}

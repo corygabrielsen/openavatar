@@ -1,0 +1,34 @@
+{
+  "body": {
+    "patternName": "broad_chest",
+    "paletteName": "human010"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "bottomwear": {
+    "patternName": "shorts_solid4",
+    "paletteName": "theme__027__red"
+  },
+  "handwear": {
+    "patternName": "gloves7",
+    "paletteName": "theme__028__blood_red"
+  },
+  "outerwear": {
+    "patternName": "big_belt",
+    "paletteName": "brown_gold"
+  },
+  "facial_hair": {
+    "patternName": "neckbeard",
+    "paletteName": "theme__039__hippy_harmony"
+  },
+  "hair": {
+    "patternName": "buzzed",
+    "paletteName": "theme__039__hippy_harmony"
+  }
+}

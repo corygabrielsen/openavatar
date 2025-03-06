@@ -1,0 +1,66 @@
+@import '../constants';
+
+.title {
+  font-size: 2.5em;
+  font-weight: normal;
+  margin: 0 auto 1rem auto;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.subtitle {
+  color: $color-primary;
+  font-size: 1.25em;
+  font-weight: normal;
+  margin: 0 auto 1rem auto;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.subsubtitle {
+  color: $color-secondary;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0 auto 1rem auto;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.content {
+  font-size: 1.2em;
+  padding: 2rem;
+  margin: 0;
+  text-align: center;
+
+  height: fit-content;
+  width: 100%;
+}
+
+.avatars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2em auto;
+  padding: 0;
+  width: 100%;
+}
+
+.button {
+  border: 1px solid $color-dark;
+  border-radius: 0.25rem;
+  font-family: $font-family;
+  font-size: 1.5rem;
+  // font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0 0.1rem;
+
+  cursor: pointer;
+  &:hover {
+    background-color: $color-secondary;
+  }
+}

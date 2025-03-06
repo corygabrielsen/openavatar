@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "artifacts/build/phase1"
+  },
+  "include": ["./scripts/*.ts"]
+}

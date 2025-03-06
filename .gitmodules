@@ -1,0 +1,3 @@
+[submodule "testnet"]
+	path = testnet
+	url = git@github.com:stoooops/ethereum-testnet

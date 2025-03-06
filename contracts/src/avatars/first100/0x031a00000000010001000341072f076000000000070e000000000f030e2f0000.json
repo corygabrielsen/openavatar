@@ -1,0 +1,38 @@
+{
+  "body": {
+    "patternName": "broad_chest",
+    "paletteName": "human027"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "bottomwear": {
+    "patternName": "pants_solid3",
+    "paletteName": "theme__066__jungle_canopy"
+  },
+  "footwear": {
+    "patternName": "shoes7",
+    "paletteName": "theme__048__autumn_glow"
+  },
+  "topwear": {
+    "patternName": "tshirt_solid7",
+    "paletteName": "theme__097__cybershock"
+  },
+  "jewelry": {
+    "patternName": "chain_10mm",
+    "paletteName": "crystal_citrine"
+  },
+  "eyewear": {
+    "patternName": "vr_rainbow",
+    "paletteName": "rainbow_silver"
+  },
+  "hair": {
+    "patternName": "shaggy",
+    "paletteName": "theme__048__autumn_glow"
+  }
+}

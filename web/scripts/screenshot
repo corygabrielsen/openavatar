@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+cd $SCRIPT_DIR
+
+PREFIX="\033[0;36m[screenshot]\033[0m \033[0;36m"
+SUFFIX="\033[0m"
+
+DOCKER_SERVICE=screenshot_web
+URL="http://localhost:3002"
+log() {
+  echo -e "$PREFIX$1$SUFFIX"
+}
+warn () {
+  echo -e "\033[0;33m[test-startup] $1\033[0m"
+}
+warnbold () {
+  echo -e "\033[1;33m[test-startup] $1\033[0m"
+}
+
+# start the server on a background process
+log "starting web server"
+docker compose up --remove-orphans $DOCKER_SERVICE &
+
+# wait for the server to start, curl with 1 second timeout
+log "waiting for web server to start..."
+RESPONSE=$(curl --write-out %{http_code} --silent --output /dev/null $URL)
+TIMEOUT=20
+NOW=$(date +%s)
+while [ $RESPONSE -ne 200 ] && [ $(date +%s) -lt $((NOW + TIMEOUT)) ]; do
+  remaining="$(($TIMEOUT - $(date +%s) + $NOW))"
+  if [ $remaining -le 3 ]; then
+    # red
+    warnbold "$remaining"
+  elif [ $remaining -le 5 ]; then
+    # yellow
+    warn "$remaining"
+  else
+    log "$remaining"
+  fi
+  sleep 1
+  RESPONSE=$(curl --write-out %{http_code} --silent --output /dev/null $URL)
+done
+if [ $RESPONSE -ne 200 ]; then
+  echo -e "\033[1;31m[test-startup] web server failed to start after ${TIMEOUT} seconds\033[0m"
+  exit 1
+fi
+log "web server running at $URL"
+
+log "Taking screenshots..."
+yarn ts-node scripts/screenshot.ts $URL
+
+# server started, now shut it down
+log "shutting down web server"
+docker compose down
+
+# server stopped
+log "web server stopped"
+exit 0

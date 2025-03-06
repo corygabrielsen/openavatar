@@ -1,0 +1,38 @@
+{
+  "body": {
+    "patternName": "nipples_masculine",
+    "paletteName": "human010"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "brown2"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "brown2"
+  },
+  "bottomwear": {
+    "patternName": "pants_solid1",
+    "paletteName": "theme__125__blue_navy"
+  },
+  "footwear": {
+    "patternName": "shoes2",
+    "paletteName": "theme__061__autumn_serenade"
+  },
+  "topwear": {
+    "patternName": "tshirt_pocket3",
+    "paletteName": "theme__061__autumn_serenade"
+  },
+  "facial_hair": {
+    "patternName": "handlebar_mustache",
+    "paletteName": "natural_medium_gray"
+  },
+  "eyewear": {
+    "patternName": "glasses_rimless",
+    "paletteName": "gold"
+  },
+  "hair": {
+    "patternName": "balding",
+    "paletteName": "natural_medium_gray"
+  }
+}

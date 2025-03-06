@@ -1,0 +1,132 @@
+@import '../constants.scss';
+
+$cartButtonSize: 12px;
+$cartButtonOffset: 8px;
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: fit-content;
+  width: fit-content;
+  position: relative; // add this line to position the delete button correctly
+
+  &:hover {
+    .cartButton {
+      display: flex;
+    }
+  }
+}
+
+.pluscontainer {
+  align-items: center;
+  color: transparent;
+  display: flex;
+  flex-direction: row;
+  height: calc(64px + 2 * 4px);
+  justify-content: center;
+  width: calc(64px + 2 * 4px);
+  // handled in JS
+  // background-image: url(/plus_white.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  &:hover {
+    // color: $color-primary;
+    cursor: pointer;
+    // handled in JS
+    // background-image: url(/plus_189ad3.png);
+  }
+}
+
+.plus {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  line-height: calc(64px + 2 * 4px);
+  height: calc(64px + 2 * 4px);
+  user-select: none;
+  width: calc(64px + 2 * 4px);
+}
+
+.cartButton {
+  align-items: center;
+  // background-color: rgba(128, 128, 128, 0.4);
+  border-radius: 2px;
+  color: black;
+  display: none;
+  font-size: 10px;
+  font-weight: bolder;
+  justify-content: center;
+
+  position: absolute;
+
+  height: $cartButtonSize;
+  width: $cartButtonSize;
+
+  cursor: pointer;
+  z-index: 200;
+
+  // no highlight text
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome and Opera */
+
+  &:hover {
+    color: white;
+    font-weight: bolder;
+  }
+}
+
+.randomButton {
+  // line-height: 16px;
+  left: $cartButtonOffset;
+  top: $cartButtonOffset;
+
+  &:hover {
+    background-color: $color-primary;
+  }
+}
+
+.copyButton {
+  right: calc($cartButtonOffset * 3.5 + $cartButtonSize);
+  top: $cartButtonOffset;
+
+  &:hover {
+    background-color: $color-primary;
+  }
+}
+
+.downloadButton {
+  right: calc($cartButtonOffset * 1.5 + $cartButtonSize);
+  top: $cartButtonOffset;
+
+  &:hover {
+    background-color: $color-primary;
+  }
+}
+
+.deleteButton {
+  // line-height: 16px;
+  right: 8px;
+  top: 8px;
+
+  &:hover {
+    background-color: #ff4d4f;
+  }
+}
+
+@media (max-width: $media-query-medium-small) {
+  .deleteButton,
+  .randomButton {
+    font-size: 16px;
+    height: 18px;
+    width: 18px;
+  }
+}

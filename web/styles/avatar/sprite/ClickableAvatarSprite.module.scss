@@ -1,0 +1,57 @@
+@import '../../constants';
+
+.container {
+  border: 4px solid white;
+  border-radius: 8px;
+  box-sizing: content-box;
+  cursor: pointer;
+  height: fit-content;
+  width: fit-content;
+  margin: 2px;
+}
+
+.container.selected {
+  border: 4px solid coral;
+  cursor: default;
+}
+.container.unselected:hover {
+  border: 4px solid #189ad3;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* not mobile media query */
+@media screen and (min-width: 800px) {
+  .container.unselected:hover {
+    animation: shake 0.2s, zoom 100s infinite alternate;
+    z-index: 100;
+  }
+}
+
+.bottomlabel {
+  background: white;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: $color-dark;
+  cursor: pointer;
+  display: block;
+  flex-wrap: nowrap;
+  font-family: $font-family;
+  font-size: 0.75em;
+  height: 16px; /* hard-coded in code */
+  text-align: center;
+  white-space: nowrap; /* prevent wrapping of text to new lines */
+  overflow: hidden; /* hide any text that goes beyond the width of the parent div */
+  text-overflow: ellipsis; /* add an ellipsis at the end of the text if it exceeds the width of the div */
+  width: 100%;
+}

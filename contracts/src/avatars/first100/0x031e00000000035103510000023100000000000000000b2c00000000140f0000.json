@@ -1,0 +1,26 @@
+{
+  "body": {
+    "patternName": "broad_chest",
+    "paletteName": "human031"
+  },
+  "left_eye": {
+    "patternName": "vertical",
+    "paletteName": "special_pure_black"
+  },
+  "right_eye": {
+    "patternName": "vertical",
+    "paletteName": "special_pure_black"
+  },
+  "footwear": {
+    "patternName": "shoes2",
+    "paletteName": "theme__050__desert_dusk"
+  },
+  "facial_hair": {
+    "patternName": "bushy_beard",
+    "paletteName": "theme__045__desert_orange"
+  },
+  "hair": {
+    "patternName": "long",
+    "paletteName": "theme__016__mountain_dawn"
+  }
+}

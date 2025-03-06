@@ -1,0 +1,30 @@
+{
+  "body": {
+    "patternName": "small_breasts",
+    "paletteName": "human021"
+  },
+  "makeup": {
+    "patternName": "blush2",
+    "paletteName": "orange"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "green2"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "green2"
+  },
+  "topwear": {
+    "patternName": "dress_gradient1",
+    "paletteName": "theme__069__summer_solstice"
+  },
+  "jewelry": {
+    "patternName": "bracelet_right",
+    "paletteName": "crystal_jade"
+  },
+  "hair": {
+    "patternName": "pharaoh",
+    "paletteName": "theme__069__summer_solstice"
+  }
+}

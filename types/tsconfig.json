@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "target": "es2015",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "declaration": true,
+    "lib": ["es2015", "dom"]
+  },
+  "include": ["index.ts", "src/**/*.ts", "test/**/*.ts"]
+}

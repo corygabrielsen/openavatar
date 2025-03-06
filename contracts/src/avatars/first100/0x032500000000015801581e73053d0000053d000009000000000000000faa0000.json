@@ -1,0 +1,34 @@
+{
+  "body": {
+    "patternName": "broad_chest",
+    "paletteName": "human038"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "special_mystic"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "special_mystic"
+  },
+  "bottomwear": {
+    "patternName": "shorts_speckled3",
+    "paletteName": "theme__116__marine_blue"
+  },
+  "footwear": {
+    "patternName": "shoes5",
+    "paletteName": "theme__062__gold"
+  },
+  "handwear": {
+    "patternName": "gloves5",
+    "paletteName": "theme__062__gold"
+  },
+  "jewelry": {
+    "patternName": "chain_20mm",
+    "paletteName": "crystal_diamond"
+  },
+  "hair": {
+    "patternName": "tousled",
+    "paletteName": "natural_blonde"
+  }
+}

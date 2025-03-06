@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  launch:
+    container_name: launch${RUN_ID}
+    image: node:16 # node:18 fails to connect to hardhat network
+    command: yarn hardhat --network ${NETWORK:-localhost} launch --create2
+    working_dir: /app
+    environment:
+      - RUN_ID
+      - NETWORK
+    volumes:
+      - ./:/app
+      - ../node_modules:/node_modules
+      - ../node_modules/@openavatar/assets:/node_modules/@openavatar/assets
+      - ../node_modules/@openavatar/types:/node_modules/@openavatar/types
+    network_mode: host

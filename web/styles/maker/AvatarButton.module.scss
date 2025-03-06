@@ -1,0 +1,139 @@
+@import '../constants.scss';
+
+.container {
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 6px solid white;
+  background-color: $color-bg;
+  display: flex;
+  flex-direction: row;
+  font-family: $font-family;
+  font-size: 1.8rem;
+  justify-content: center;
+  letter-spacing: 0.1rem;
+  margin: 0.5rem auto;
+  padding: 0.5rem 0.25rem;
+  text-align: center;
+  width: 10rem;
+  // height: 5rem;
+}
+
+// visually align the text with the sprite
+.buttonSprite {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -4px;
+  margin-right: 0.25rem;
+}
+
+.textLabel {
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.textLabels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.25rem 0;
+  font-size: 1rem;
+}
+
+.container.unselected {
+  cursor: pointer;
+}
+
+.container.unselected:hover {
+  background-color: #d5d5d5;
+  border: 6px solid $color-primary;
+}
+
+.container.selected {
+  border: 6px solid $color-secondary;
+}
+
+// @media (max-width: $media-query-large) {
+//   .container {
+//     flex-direction: column;
+//     font-size: 1.6rem;
+//     width: 8rem;
+//     height: 7rem;
+//   }
+//   .buttonSprite {
+//     margin: -6px auto 0 auto;
+//   }
+// }
+
+// @media (max-width: $media-query-medium-large) {
+//   .container {
+//     font-size: 1.5rem;
+//     width: 7rem;
+//   }
+//   .buttonSprite {
+//     margin: -6px auto 0 auto;
+//   }
+// }
+
+// @media (max-width: $media-query-medium) {
+.container {
+  border: 4px solid white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 40px;
+  flex-direction: column;
+  // font-size: 1.4rem;
+  width: 7rem;
+}
+.container.selected {
+  border: 4px solid $color-secondary;
+}
+.container.unselected:hover {
+  border: 4px solid $color-primary;
+}
+// }
+// @media (max-width: $media-query-medium-small) {
+.container {
+  border: 2px solid white;
+  // font-size: 1.4rem;
+  width: 6rem;
+}
+.container.selected {
+  border: 2px solid $color-secondary;
+}
+.container.unselected:hover {
+  border: 2px solid $color-primary;
+  background-color: lighten($color-bg, 10%);
+}
+// }
+// @media (max-width: $media-query-small) {
+.container {
+  font-size: 0.8rem;
+  // white-space: normal;
+  // width: 4rem;
+}
+// }
+
+@keyframes flash {
+  0% {
+    border-color: $color-secondary;
+    background-color: $color-secondary;
+  }
+  // 50% {
+  //   border-color: $color-primary;
+  //   background-color: $color-primary;
+  // }
+  100% {
+    border-color: white;
+    background-color: $color-bg;
+  }
+}
+
+.flash {
+  animation: flash 2s linear;
+}
+
+.flash:hover {
+  animation: none;
+}

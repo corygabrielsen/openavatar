@@ -1,0 +1,38 @@
+{
+  "body": {
+    "patternName": "inner_chest",
+    "paletteName": "human067"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "blue_green1"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "blue_green1"
+  },
+  "bottomwear": {
+    "patternName": "pants_speckled4",
+    "paletteName": "theme__084__luminescent_lagoon"
+  },
+  "footwear": {
+    "patternName": "shoes4",
+    "paletteName": "theme__084__luminescent_lagoon"
+  },
+  "jewelry": {
+    "patternName": "bracelets",
+    "paletteName": "metal_titanium_white"
+  },
+  "facial_hair": {
+    "patternName": "chin_puff",
+    "paletteName": "theme__084__luminescent_lagoon"
+  },
+  "eyewear": {
+    "patternName": "sunglasses_retro",
+    "paletteName": "semi_transluscent_turquoise"
+  },
+  "hair": {
+    "patternName": "floppy",
+    "paletteName": "theme__084__luminescent_lagoon"
+  }
+}

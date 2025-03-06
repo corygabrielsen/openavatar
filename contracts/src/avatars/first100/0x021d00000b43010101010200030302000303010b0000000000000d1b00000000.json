@@ -1,0 +1,42 @@
+{
+  "body": {
+    "patternName": "inner_chest",
+    "paletteName": "human030"
+  },
+  "makeup": {
+    "patternName": "warpaint_vertical",
+    "paletteName": "glam_black"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "gray1"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "gray1"
+  },
+  "bottomwear": {
+    "patternName": "pants_solid2",
+    "paletteName": "theme__001__black"
+  },
+  "footwear": {
+    "patternName": "shoes3",
+    "paletteName": "theme__004__light_gray"
+  },
+  "topwear": {
+    "patternName": "tshirt_solid2",
+    "paletteName": "theme__001__black"
+  },
+  "handwear": {
+    "patternName": "gloves3",
+    "paletteName": "theme__004__light_gray"
+  },
+  "outerwear": {
+    "patternName": "belt",
+    "paletteName": "gray_gold"
+  },
+  "eyewear": {
+    "patternName": "ar_vr_visor",
+    "paletteName": "orange"
+  }
+}

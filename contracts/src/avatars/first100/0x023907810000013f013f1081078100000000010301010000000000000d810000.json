@@ -1,0 +1,38 @@
+{
+  "body": {
+    "patternName": "inner_chest",
+    "paletteName": "human058"
+  },
+  "tattoos": {
+    "patternName": "bodytat2",
+    "paletteName": "theme__130__periwinkle"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "periwinkle1"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "periwinkle1"
+  },
+  "bottomwear": {
+    "patternName": "pants_speckled4",
+    "paletteName": "theme__130__periwinkle"
+  },
+  "footwear": {
+    "patternName": "shoes7",
+    "paletteName": "theme__130__periwinkle"
+  },
+  "outerwear": {
+    "patternName": "belt",
+    "paletteName": "black_platinum"
+  },
+  "jewelry": {
+    "patternName": "earrings",
+    "paletteName": "metal_gold"
+  },
+  "hair": {
+    "patternName": "floppy",
+    "paletteName": "theme__130__periwinkle"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "body": {
+    "patternName": "nipples_feminine",
+    "paletteName": "human053"
+  },
+  "makeup": {
+    "patternName": "warpaint_x",
+    "paletteName": "white"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "green2"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "green2"
+  },
+  "bottomwear": {
+    "patternName": "skirt_radial_gradient1",
+    "paletteName": "theme__058__rainforest_canopy"
+  },
+  "hair": {
+    "patternName": "long_straight",
+    "paletteName": "theme__058__rainforest_canopy"
+  }
+}

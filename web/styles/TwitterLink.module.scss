@@ -1,0 +1,16 @@
+.twitter {
+  color: rgba(255, 255, 255, 0.2);
+  color: #1da1f2;
+  text-decoration: none;
+  height: fit-content;
+  width: fit-content;
+  // margin-right: 16px; // added some spacing
+}
+
+.twitter:hover > svg {
+  fill: #1da1f2 !important;
+}
+
+.twitter > svg {
+  fill: gray;
+}

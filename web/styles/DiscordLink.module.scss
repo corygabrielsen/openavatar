@@ -1,0 +1,23 @@
+.discord {
+  height: 100%;
+  width: 100%;
+  height: fit-content;
+  width: fit-content;
+  // margin-right: 16px; // added some spacing
+}
+
+.discordLogoGray {
+  display: block;
+}
+
+.discordLogoColor {
+  display: none;
+}
+
+.discord:hover .discordLogoGray {
+  display: none;
+}
+
+.discord:hover .discordLogoColor {
+  display: block;
+}

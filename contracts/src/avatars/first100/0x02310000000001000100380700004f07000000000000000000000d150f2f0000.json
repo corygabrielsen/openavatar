@@ -1,0 +1,30 @@
+{
+  "body": {
+    "patternName": "inner_chest",
+    "paletteName": "human050"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "bottomwear": {
+    "patternName": "space_suit",
+    "paletteName": "sun"
+  },
+  "topwear": {
+    "patternName": "space_suit",
+    "paletteName": "sun"
+  },
+  "eyewear": {
+    "patternName": "ar_vr_visor",
+    "paletteName": "coral"
+  },
+  "hair": {
+    "patternName": "tousled",
+    "paletteName": "theme__048__autumn_glow"
+  }
+}

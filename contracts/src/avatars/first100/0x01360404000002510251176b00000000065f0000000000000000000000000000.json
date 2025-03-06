@@ -1,0 +1,26 @@
+{
+  "body": {
+    "patternName": "bare_chest",
+    "paletteName": "human055"
+  },
+  "tattoos": {
+    "patternName": "crest",
+    "paletteName": "theme__005__white"
+  },
+  "left_eye": {
+    "patternName": "horizontal",
+    "paletteName": "special_pure_black"
+  },
+  "right_eye": {
+    "patternName": "horizontal",
+    "paletteName": "special_pure_black"
+  },
+  "bottomwear": {
+    "patternName": "shorts_solid7",
+    "paletteName": "theme__108__cyberpunk"
+  },
+  "handwear": {
+    "patternName": "gloves6",
+    "paletteName": "theme__096__cool_green"
+  }
+}

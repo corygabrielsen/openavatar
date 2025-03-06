@@ -1,0 +1,38 @@
+{
+  "body": {
+    "patternName": "large_breasts",
+    "paletteName": "human005"
+  },
+  "makeup": {
+    "patternName": "lipstick_blush_eye_shadow",
+    "paletteName": "subtle_pink"
+  },
+  "left_eye": {
+    "patternName": "vertical",
+    "paletteName": "periwinkle1"
+  },
+  "right_eye": {
+    "patternName": "vertical",
+    "paletteName": "periwinkle1"
+  },
+  "footwear": {
+    "patternName": "shoes7",
+    "paletteName": "theme__128__evening_frost"
+  },
+  "topwear": {
+    "patternName": "dress_lowcut_gradient2",
+    "paletteName": "theme__128__evening_frost"
+  },
+  "jewelry": {
+    "patternName": "bracelets",
+    "paletteName": "crystal_amethyst"
+  },
+  "eyewear": {
+    "patternName": "glasses_rimless",
+    "paletteName": "quarter_transluscent_white"
+  },
+  "hair": {
+    "patternName": "long_wavy",
+    "paletteName": "theme__128__evening_frost"
+  }
+}

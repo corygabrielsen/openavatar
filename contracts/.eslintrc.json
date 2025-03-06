@@ -1,0 +1,19 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": ["eslint:recommended", "plugin:mocha/recommended"],
+  "ignorePatterns": ["coverage/"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "mocha"],
+  "rules": {
+    "mocha/no-setup-in-describe": "off",
+    "no-unused-vars": "off"
+  }
+}

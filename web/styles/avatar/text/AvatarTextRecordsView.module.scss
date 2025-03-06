@@ -1,0 +1,70 @@
+@import '../../constants';
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.title {
+  font-weight: 300;
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 1 column for keys, 1 column for values */
+  grid-column-gap: 0.25em;
+  grid-row-gap: 0.25em;
+  width: 100%;
+}
+
+.key {
+  background-color: $color-gray-accent;
+  border-radius: 0.25rem;
+}
+
+.value {
+  background: $color-checkerboard-light;
+  border-radius: 0.25rem;
+  border-bottom: 1px solid $color-checkerboard-dark;
+
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.key,
+.value {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin: 0;
+  padding: 0.25em 0.5em;
+}
+
+@media (max-width: $media-query-large) {
+  .container {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: $media-query-medium-large) {
+  .container {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: $media-query-medium) {
+  .container {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: $media-query-small) {
+  .container {
+    font-size: 0.5rem;
+  }
+}

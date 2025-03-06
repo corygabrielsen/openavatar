@@ -1,0 +1,43 @@
+@import './constants.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: $font-family;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 20px;
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: $media-query-large) {
+  .container {
+    max-width: 640px;
+  }
+}
+@media (max-width: $media-query-medium) {
+  .container {
+    max-width: 480px;
+  }
+}
+@media (max-width: $media-query-small) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+.container > p {
+  text-align: left;
+}
+
+.twitter {
+  color: #1da1f2;
+  text-decoration: none;
+}
+.twitter:hover {
+  text-decoration: underline;
+}

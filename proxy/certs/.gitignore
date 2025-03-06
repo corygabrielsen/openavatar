@@ -1,0 +1,6 @@
+*.ca-bundle
+*.crt
+*.csr
+*.key
+*.p7b
+*.pem

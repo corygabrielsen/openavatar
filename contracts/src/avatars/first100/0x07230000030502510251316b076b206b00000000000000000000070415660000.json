@@ -1,0 +1,38 @@
+{
+  "body": {
+    "patternName": "breasts",
+    "paletteName": "human036"
+  },
+  "makeup": {
+    "patternName": "blush2",
+    "paletteName": "subtle_beige"
+  },
+  "left_eye": {
+    "patternName": "horizontal",
+    "paletteName": "special_pure_black"
+  },
+  "right_eye": {
+    "patternName": "horizontal",
+    "paletteName": "special_pure_black"
+  },
+  "bottomwear": {
+    "patternName": "skirt_gradient4",
+    "paletteName": "theme__108__cyberpunk"
+  },
+  "footwear": {
+    "patternName": "shoes7",
+    "paletteName": "theme__108__cyberpunk"
+  },
+  "topwear": {
+    "patternName": "vneck_solid6",
+    "paletteName": "theme__108__cyberpunk"
+  },
+  "eyewear": {
+    "patternName": "glasses_rimless",
+    "paletteName": "silver"
+  },
+  "hair": {
+    "patternName": "long_straight",
+    "paletteName": "theme__103__cyan"
+  }
+}

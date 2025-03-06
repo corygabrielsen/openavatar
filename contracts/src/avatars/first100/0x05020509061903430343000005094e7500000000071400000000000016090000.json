@@ -1,0 +1,38 @@
+{
+  "body": {
+    "patternName": "nipples_feminine",
+    "paletteName": "human003"
+  },
+  "tattoos": {
+    "patternName": "bird_wings",
+    "paletteName": "theme__010__soft_pink"
+  },
+  "makeup": {
+    "patternName": "lipstick_eye_shadow",
+    "paletteName": "subtle_pink"
+  },
+  "left_eye": {
+    "patternName": "vertical",
+    "paletteName": "lavender2"
+  },
+  "right_eye": {
+    "patternName": "vertical",
+    "paletteName": "lavender2"
+  },
+  "footwear": {
+    "patternName": "shoes5",
+    "paletteName": "theme__010__soft_pink"
+  },
+  "topwear": {
+    "patternName": "dress_gradient2",
+    "paletteName": "theme__118__arctic_aurora"
+  },
+  "jewelry": {
+    "patternName": "chain_10mm",
+    "paletteName": "crystal_quartz"
+  },
+  "hair": {
+    "patternName": "long_wavy",
+    "paletteName": "theme__010__soft_pink"
+  }
+}

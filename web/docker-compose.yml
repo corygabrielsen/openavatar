@@ -1,0 +1,17 @@
+version: '3'
+services:
+  web:
+    container_name: web${RUN_ID}
+    image: node:latest
+    working_dir: /app
+    environment:
+      - RUN_ID
+    volumes:
+      - .:/app
+      - ../node_modules:/node_modules
+      - ../node_modules/@openavatar/assets:/node_modules/@openavatar/assets
+      - ../node_modules/@openavatar/contracts:/node_modules/@openavatar/contracts
+      - ../node_modules/@openavatar/types:/node_modules/@openavatar/types
+    command: ['yarn', 'dev']
+    ports:
+      - 3000:3000

@@ -1,0 +1,14 @@
+{
+  "body": {
+    "patternName": "inner_chest",
+    "paletteName": "sunburn3"
+  },
+  "left_eye": {
+    "patternName": "vertical",
+    "paletteName": "special_pure_black"
+  },
+  "right_eye": {
+    "patternName": "vertical",
+    "paletteName": "special_pure_black"
+  }
+}

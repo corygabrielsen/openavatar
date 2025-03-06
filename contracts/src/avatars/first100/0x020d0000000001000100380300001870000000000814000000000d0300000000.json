@@ -1,0 +1,30 @@
+{
+  "body": {
+    "patternName": "inner_chest",
+    "paletteName": "human014"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "bottomwear": {
+    "patternName": "space_suit",
+    "paletteName": "gold"
+  },
+  "topwear": {
+    "patternName": "tshirt_speckled2",
+    "paletteName": "theme__113__azure_escape"
+  },
+  "jewelry": {
+    "patternName": "long_chain_10mm",
+    "paletteName": "crystal_quartz"
+  },
+  "eyewear": {
+    "patternName": "ar_vr_visor",
+    "paletteName": "gold"
+  }
+}

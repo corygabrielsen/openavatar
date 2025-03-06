@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  github-actions-runner:
+    container_name: github-actions-runner
+    build:
+      context: .
+      args:
+        UID: ${UID}
+        GID: ${GID}
+    volumes:
+      - ~/.cache:/home/runner/.cache
+    tty: true
+    restart: always
+    environment:
+      - GID
+      - UID

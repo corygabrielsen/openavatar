@@ -1,0 +1,26 @@
+{
+  "body": {
+    "patternName": "bare_chest",
+    "paletteName": "human008"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "bottomwear": {
+    "patternName": "shorts_solid3",
+    "paletteName": "theme__003__gray"
+  },
+  "eyewear": {
+    "patternName": "led_ticker",
+    "paletteName": "theme__023__scarlet_red"
+  },
+  "hair": {
+    "patternName": "shaggy",
+    "paletteName": "theme__064__yellow"
+  }
+}

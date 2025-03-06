@@ -1,0 +1,113 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Use Node.js v18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install Yarn
+        run: npm install --global yarn
+      - run: yarn install
+      - run: yarn build
+
+      # assuming the built artifacts reside in dist/ for each workspace
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: |
+            types/dist
+            assets/dist
+            contracts/artifacts
+            contracts/dist
+            web/.next
+            web/out
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          submodules: true
+      - name: Use Node.js v18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: yarn install
+      - run: yarn lint
+      - run: yarn format:check
+
+  unit-tests:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          submodules: true
+      - name: Use Node.js v18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: yarn install
+      - name: Download build artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+          path: .
+      - name: Set UID and GID
+        run: |
+          echo "UID=$(id -u)" >> $GITHUB_ENV
+          echo "GID=$(id -g)" >> $GITHUB_ENV
+      - name: Screenshot web app
+        run: cd web && yarn screenshot
+      - name: Load solc into cache
+        run: mkdir -p ~/.cache/hardhat-nodejs/compilers-v2/linux-amd64/ && cp contracts/solc/* ~/.cache/hardhat-nodejs/compilers-v2/linux-amd64/
+      - run: yarn test
+        env:
+          CI: true
+
+  # integration-tests:
+  #   needs: build
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Checkout
+  #       uses: actions/checkout@v3
+  #       with:
+  #         fetch-depth: 0
+  #         submodules: true
+  #     - name: Use Node.js v18
+  #       uses: actions/setup-node@v3
+  #       with:
+  #         node-version: 18
+  #     - run: yarn install
+  #     - name: Download build artifacts
+  #       uses: actions/download-artifact@v3
+  #       with:
+  #         name: build
+  #         path: .
+  #     - name: Set UID and GID
+  #       run: |
+  #         echo "UID=$(id -u)" >> $GITHUB_ENV
+  #         echo "GID=$(id -g)" >> $GITHUB_ENV
+  #     - run: yarn integ
+  #       env:
+  #         RUN_ID: -ci-build-${{ github.run_id }}

@@ -1,0 +1,42 @@
+{
+  "body": {
+    "patternName": "nipples_masculine",
+    "paletteName": "human037"
+  },
+  "makeup": {
+    "patternName": "warpaint_vertical",
+    "paletteName": "subtle_red"
+  },
+  "left_eye": {
+    "patternName": "horizontal",
+    "paletteName": "special_pure_black"
+  },
+  "right_eye": {
+    "patternName": "horizontal",
+    "paletteName": "special_pure_black"
+  },
+  "bottomwear": {
+    "patternName": "pants_speckled4",
+    "paletteName": "theme__041__sunrise"
+  },
+  "footwear": {
+    "patternName": "shoes2",
+    "paletteName": "theme__041__sunrise"
+  },
+  "handwear": {
+    "patternName": "gloves3",
+    "paletteName": "theme__041__sunrise"
+  },
+  "jewelry": {
+    "patternName": "bracelets",
+    "paletteName": "crystal_ruby"
+  },
+  "eyewear": {
+    "patternName": "ar_vr_visor",
+    "paletteName": "transluscent_red"
+  },
+  "hair": {
+    "patternName": "spiky",
+    "paletteName": "theme__041__sunrise"
+  }
+}

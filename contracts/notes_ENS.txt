@@ -1,0 +1,26 @@
+
+WALLET=0x000000004d8656ac38379a6abf3ba6e800785e92
+
+To claim ownership of the reverse record for a contract
+
+let CONTRACT=0x... (TBD)
+
+Then call:
+CONTRACT::claimReverseENS
+  ens 0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e
+  claimant WALLET
+
+
+To set the reverse record once claimed,
+
+ENS_PUBLIC_RESOLVER = 0x231b0Ee14048e9dCcD1d247744d114a4EB5E8E63
+
+Then on the ReverseRegistrar contract, call:
+
+ReverseRegistrar=0xa58E81fe9b61B5c3fE2AFD33CF304c454AbFc7Cb
+
+  setNameForAddr
+    addr = CONTRACT_ADDRESS
+    owner = WALLET
+    resolver = ENS_PUBLIC_RESOLVER
+    name = NAME

@@ -1,0 +1,30 @@
+{
+  "body": {
+    "patternName": "broad_chest",
+    "paletteName": "sunburn1"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "bottomwear": {
+    "patternName": "space_suit",
+    "paletteName": "cyan"
+  },
+  "topwear": {
+    "patternName": "tshirt_speckled1",
+    "paletteName": "theme__105__electric_rain"
+  },
+  "jewelry": {
+    "patternName": "long_chain_10mm",
+    "paletteName": "crystal_quartz"
+  },
+  "eyewear": {
+    "patternName": "sunshield",
+    "paletteName": "sun_reflection"
+  }
+}

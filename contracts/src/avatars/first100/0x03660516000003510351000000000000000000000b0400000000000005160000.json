@@ -1,0 +1,26 @@
+{
+  "body": {
+    "patternName": "broad_chest",
+    "paletteName": "sunburn3"
+  },
+  "tattoos": {
+    "patternName": "bird_wings",
+    "paletteName": "theme__023__scarlet_red"
+  },
+  "left_eye": {
+    "patternName": "vertical",
+    "paletteName": "special_pure_black"
+  },
+  "right_eye": {
+    "patternName": "vertical",
+    "paletteName": "special_pure_black"
+  },
+  "jewelry": {
+    "patternName": "medallion_chain",
+    "paletteName": "crystal_ruby"
+  },
+  "hair": {
+    "patternName": "long_balding",
+    "paletteName": "theme__023__scarlet_red"
+  }
+}

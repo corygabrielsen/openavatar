@@ -1,0 +1,23 @@
+@import '../constants.scss';
+
+.cartItems {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: fit-content;
+  justify-content: center;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+@media (max-width: $media-query-medium-small) {
+  .cartItems {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: $media-query-small) {
+  .cartItems {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

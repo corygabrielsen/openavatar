@@ -1,0 +1,26 @@
+{
+  "body": {
+    "patternName": "broad_chest",
+    "paletteName": "human008"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "bottomwear": {
+    "patternName": "underwear_solid5",
+    "paletteName": "theme__108__cyberpunk"
+  },
+  "handwear": {
+    "patternName": "gloves5",
+    "paletteName": "theme__108__cyberpunk"
+  },
+  "eyewear": {
+    "patternName": "ar_vr_visor",
+    "paletteName": "transluscent_turquoise"
+  }
+}

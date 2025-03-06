@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  screenshot_web:
+    container_name: screenshot_web
+    image: 'node:16'
+    volumes:
+      - ..:/app
+      - ../../node_modules:/app/node_modules
+      - ../../node_modules/@openavatar/assets:/app/node_modules/@openavatar/assets
+      - ../../node_modules/@openavatar/contracts:/app/node_modules/@openavatar/contracts
+      - ../../node_modules/@openavatar/types:/app/node_modules/@openavatar/types
+    working_dir: /app
+    command: yarn start
+    ports:
+      - '3002:3000'

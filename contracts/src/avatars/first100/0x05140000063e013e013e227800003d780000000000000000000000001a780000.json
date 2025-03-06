@@ -1,0 +1,30 @@
+{
+  "body": {
+    "patternName": "nipples_feminine",
+    "paletteName": "human021"
+  },
+  "makeup": {
+    "patternName": "lipstick_eye_shadow",
+    "paletteName": "magenta"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "blue7"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "blue7"
+  },
+  "bottomwear": {
+    "patternName": "underwear_solid3",
+    "paletteName": "theme__121__coral_reef"
+  },
+  "topwear": {
+    "patternName": "bra_gradient2",
+    "paletteName": "theme__121__coral_reef"
+  },
+  "hair": {
+    "patternName": "bob",
+    "paletteName": "theme__121__coral_reef"
+  }
+}

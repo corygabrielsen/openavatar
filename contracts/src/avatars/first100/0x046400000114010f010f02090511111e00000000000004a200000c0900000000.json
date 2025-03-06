@@ -1,0 +1,38 @@
+{
+  "body": {
+    "patternName": "nipples_masculine",
+    "paletteName": "sunburn1"
+  },
+  "makeup": {
+    "patternName": "lipstick",
+    "paletteName": "natural_red"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "red3"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "red3"
+  },
+  "bottomwear": {
+    "patternName": "pants_solid2",
+    "paletteName": "theme__010__soft_pink"
+  },
+  "footwear": {
+    "patternName": "shoes5",
+    "paletteName": "theme__018__pastel_daydream"
+  },
+  "topwear": {
+    "patternName": "tshirt_gradient3",
+    "paletteName": "theme__031__dragon_red"
+  },
+  "facial_hair": {
+    "patternName": "chin_puff",
+    "paletteName": "natural_dark_brown"
+  },
+  "eyewear": {
+    "patternName": "face_shield",
+    "paletteName": "semi_transluscent_blue_gray"
+  }
+}

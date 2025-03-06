@@ -1,0 +1,42 @@
+{
+  "body": {
+    "patternName": "broad_chest",
+    "paletteName": "human060"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "bottomwear": {
+    "patternName": "shorts_solid5",
+    "paletteName": "theme__067__aurora_tides"
+  },
+  "footwear": {
+    "patternName": "shoes7",
+    "paletteName": "theme__067__aurora_tides"
+  },
+  "topwear": {
+    "patternName": "tshirt_speckled1",
+    "paletteName": "theme__067__aurora_tides"
+  },
+  "jewelry": {
+    "patternName": "bracelets",
+    "paletteName": "crystal_diamond"
+  },
+  "facial_hair": {
+    "patternName": "handlebar_mustache",
+    "paletteName": "theme__067__aurora_tides"
+  },
+  "eyewear": {
+    "patternName": "led_ticker",
+    "paletteName": "theme__067__aurora_tides"
+  },
+  "hair": {
+    "patternName": "large_afro",
+    "paletteName": "theme__067__aurora_tides"
+  }
+}

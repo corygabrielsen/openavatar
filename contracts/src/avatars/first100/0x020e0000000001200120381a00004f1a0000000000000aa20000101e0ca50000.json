@@ -1,0 +1,34 @@
+{
+  "body": {
+    "patternName": "inner_chest",
+    "paletteName": "human015"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "green2"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "green2"
+  },
+  "bottomwear": {
+    "patternName": "space_suit",
+    "paletteName": "military_green"
+  },
+  "topwear": {
+    "patternName": "space_suit",
+    "paletteName": "military_green"
+  },
+  "facial_hair": {
+    "patternName": "full_beard",
+    "paletteName": "natural_dark_brown"
+  },
+  "eyewear": {
+    "patternName": "led_ticker",
+    "paletteName": "theme__031__dragon_red"
+  },
+  "hair": {
+    "patternName": "short_shaggy",
+    "paletteName": "natural_lighter_brown"
+  }
+}

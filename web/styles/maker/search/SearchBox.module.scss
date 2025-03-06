@@ -1,0 +1,40 @@
+@import '../../constants';
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 0;
+
+  font-family: $font-family;
+
+  height: 2em;
+
+  width: fit-content;
+}
+
+.icon {
+  height: 1.5em;
+  width: 1.5em;
+  margin: 0 0.5em 0 0;
+  padding: 0;
+}
+
+.search {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 0;
+
+  font-family: $font-family;
+
+  height: 2em;
+
+  // width: 20em;
+}

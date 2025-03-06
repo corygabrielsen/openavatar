@@ -1,0 +1,34 @@
+{
+  "body": {
+    "patternName": "broad_chest",
+    "paletteName": "human055"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "periwinkle3"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "periwinkle3"
+  },
+  "bottomwear": {
+    "patternName": "underwear_solid7",
+    "paletteName": "theme__130__periwinkle"
+  },
+  "handwear": {
+    "patternName": "gloves5",
+    "paletteName": "theme__130__periwinkle"
+  },
+  "jewelry": {
+    "patternName": "bracelets",
+    "paletteName": "crystal_amethyst"
+  },
+  "facial_hair": {
+    "patternName": "bushy_beard",
+    "paletteName": "theme__133__cotton_candy"
+  },
+  "hair": {
+    "patternName": "spiky",
+    "paletteName": "theme__133__cotton_candy"
+  }
+}

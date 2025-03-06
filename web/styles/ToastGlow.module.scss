@@ -1,0 +1,59 @@
+@import './constants.scss';
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.container {
+  // border-radius: 0.5rem;
+  // border: 2px solid #189ad3;
+  background-color: $color-dark;
+  color: white;
+  font-family: $font-family;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0.5rem auto;
+  height: fit-content;
+  text-align: center;
+  position: relative; /* Add this line to position the pseudo-element */
+  z-index: 1;
+  width: fit-content;
+
+  border-radius: var(--border-width);
+  --border-width: 4px;
+
+  &::after {
+    position: absolute;
+    content: '';
+    top: calc(-1 * var(--border-width));
+    left: calc(-1 * var(--border-width));
+    z-index: -1;
+    width: calc(100% + var(--border-width) * 2);
+    height: calc(100% + var(--border-width) * 2);
+    background: linear-gradient(
+      60deg,
+      hsl(224, 85%, 66%),
+      hsl(269, 85%, 66%),
+      hsl(314, 85%, 66%),
+      hsl(359, 85%, 66%),
+      hsl(44, 85%, 66%),
+      hsl(89, 85%, 66%),
+      hsl(134, 85%, 66%),
+      hsl(179, 85%, 66%)
+    );
+    background-size: 300% 300%;
+    background-position: 0 50%;
+    border-radius: calc(2 * var(--border-width));
+    animation: moveGradient 20s alternate infinite;
+  }
+
+  .text {
+    background-color: $color-dark;
+    // slightly more padding on bottom to make it look better
+    padding: 0.5rem 0.25rem 0.6rem 0.25rem;
+    background: $color-bg;
+    border-radius: var(--border-width);
+  }
+}

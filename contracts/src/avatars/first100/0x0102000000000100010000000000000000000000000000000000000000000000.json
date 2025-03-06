@@ -1,0 +1,14 @@
+{
+  "body": {
+    "patternName": "bare_chest",
+    "paletteName": "human003"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "black"
+  }
+}

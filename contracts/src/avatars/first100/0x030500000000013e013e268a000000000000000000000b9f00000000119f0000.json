@@ -1,0 +1,26 @@
+{
+  "body": {
+    "patternName": "broad_chest",
+    "paletteName": "human006"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "blue7"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "blue7"
+  },
+  "bottomwear": {
+    "patternName": "underwear_solid7",
+    "paletteName": "theme__139__purple_nightshade"
+  },
+  "facial_hair": {
+    "patternName": "bushy_beard",
+    "paletteName": "natural_near_white"
+  },
+  "hair": {
+    "patternName": "spiky",
+    "paletteName": "natural_near_white"
+  }
+}

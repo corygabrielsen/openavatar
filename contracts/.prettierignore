@@ -1,0 +1,11 @@
+.mypy_cache
+.vscode
+artifacts
+cache
+contracts/core/dependencies/ImmutableCreate2Factory.sol
+coverage
+dist
+node_modules
+scripts/artifacts
+solc
+test/artifacts

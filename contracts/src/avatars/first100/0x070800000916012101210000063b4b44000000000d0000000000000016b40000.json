@@ -1,0 +1,34 @@
+{
+  "body": {
+    "patternName": "breasts",
+    "paletteName": "human009"
+  },
+  "makeup": {
+    "patternName": "lipstick_blush_eye_shadow",
+    "paletteName": "red"
+  },
+  "left_eye": {
+    "patternName": "square",
+    "paletteName": "green3"
+  },
+  "right_eye": {
+    "patternName": "square",
+    "paletteName": "green3"
+  },
+  "footwear": {
+    "patternName": "shoes6",
+    "paletteName": "theme__060__golden_harvest"
+  },
+  "topwear": {
+    "patternName": "dress_lowcut_gradient1",
+    "paletteName": "theme__069__summer_solstice"
+  },
+  "jewelry": {
+    "patternName": "bracelets",
+    "paletteName": "crystal_diamond"
+  },
+  "hair": {
+    "patternName": "long_wavy",
+    "paletteName": "natural_copper_red"
+  }
+}
