@@ -2,6 +2,21 @@
 
 OpenAvatar is no longer under active development.
 
+## Website
+
+<https://www.openavatar.tech/>
+
+## Contract addresses
+
+| Contract | Mainnet |
+|----------|---------|
+| **OpenAvatarGen0Token** | `0x0000000000000138Bd6bd34CF4A3905576f58e25` |
+| **OpenAvatarGen0TextRecords** | `0x00000000000029F69177DcE0c57A81c9b73c02CE` |
+| **OpenAvatarGen0RendererRegistry** | `0x0000000000002ebafE656fe156fCeBb9435f662A` |
+| **OpenAvatarGen0Renderer** | `0x00000000000006FDeB6F46bb3fe4439eE5430351` |
+| **OpenAvatarGen0ProfilePictureRenderer** | `0x00000000000008a2729597332F9a33757F6468A6` |
+| **OpenAvatarGen0Assets** | `0x0000000000002e49c53D50F29503a882a74D25Ec` |
+
 ## Overview
 
 The goal of OpenAvatar is to provide an open source, onchain, interoperable protocol standard for Avatars. Each avatar
